@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14e42c73-ea6c-4c2b-b9d8-561479ee0eaf" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/.idea/filestore-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/meta/filemeta.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/signin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/view/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Users\show\sdk\go1.10.8" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/.." />
+      </list>
+    </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1i9HNZlpt5fVjtfx2lNy5TXpNzi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="true" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jamie-product\go-product\filestore-server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="732" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601312929675">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="732" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601312929675" />
+    <state x="4377" y="518" key="CommitChangelistDialog2" timestamp="1601796622257">
+      <screen x="3840" y="506" width="1920" height="1034" />
+    </state>
+    <state x="4377" y="518" key="CommitChangelistDialog2/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601796622257" />
+    <state x="4596" y="800" key="FileChooserDialogImpl" timestamp="1601796439204">
+      <screen x="3840" y="506" width="1920" height="1034" />
+    </state>
+    <state x="1008" y="401" key="FileChooserDialogImpl/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601314786511" />
+    <state x="4596" y="800" key="FileChooserDialogImpl/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601796439204" />
+    <state x="4199" y="657" width="1141" height="883" key="SettingsEditor" timestamp="1601796757716">
+      <screen x="3840" y="506" width="1920" height="1034" />
+    </state>
+    <state x="478" y="303" width="1230" height="883" key="SettingsEditor/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601315892806" />
+    <state x="4199" y="657" width="1141" height="883" key="SettingsEditor/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601796757716" />
+    <state x="4522" y="665" width="718" height="716" key="find.popup" timestamp="1601796070745">
+      <screen x="3840" y="506" width="1920" height="1034" />
+    </state>
+    <state x="909" y="217" width="742" height="975" key="find.popup/3840.340.2560.1394/0.0.2560.1409@0.0.2560.1409" timestamp="1601355070775" />
+    <state x="909" y="217" width="742" height="975" key="find.popup/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601313693141" />
+    <state x="4522" y="665" width="718" height="716" key="find.popup/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601796070745" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/handler/handler.go</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
