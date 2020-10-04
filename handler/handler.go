@@ -53,8 +53,9 @@ func UploadHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		newFile.Seek(0, 0)
 		fileMeta.FileSha1 = util.FileSha1(newFile)
-		meta.UpdateFileMeta(fileMeta)
-
+		//meta.UpdateFileMeta(fileMeta)
+		// 改成用数据库存储
+		meta.UpdateFileMetaDB(fileMeta)
 		http.Redirect(w, r, "/file/upload/suc", http.StatusFound)
 	}
 }
@@ -69,7 +70,14 @@ func GetFileMetaHandler(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 
 	fileHash := r.Form["filehash"][0]
-	fMeta := meta.GetFileMeta(fileHash)
+	//fMeta := meta.GetFileMeta(fileHash)
+	fMeta, err := meta.GetFileMetaDB(fileHash)
+	//  查询过程出问题
+	if err != nil {
+		w.WriteHeader(http.StatusInternalServerError)
+		return
+	}
+	// 转换json
 	data, err := json.Marshal(fMeta)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
@@ -123,7 +131,9 @@ func FileMetaUpdateHandler(w http.ResponseWriter, r *http.Request) {
 	// 根据hash值获取文件信息，并更新文件信息
 	curFileMeta := meta.GetFileMeta(fileSha1)
 	curFileMeta.FileName = newFileName
-	meta.UpdateFileMeta(curFileMeta)
+	//meta.UpdateFileMeta(curFileMeta)
+	// 改成用数据库存储
+	meta.UpdateFileMetaDB(curFileMeta)
 
 	w.WriteHeader(http.StatusOK)
 	data, err := json.Marshal(curFileMeta)
