@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14e42c73-ea6c-4c2b-b9d8-561479ee0eaf" name="Default Changelist" comment="feature: 初始化项目 v1.0">
-      <change afterPath="$PROJECT_DIR$/config/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mysql/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meta/sort.go" afterDir="false" />
+    <list default="true" id="14e42c73-ea6c-4c2b-b9d8-561479ee0eaf" name="Default Changelist" comment="feature: 把文件存储改成存储在数据库 v1.1">
+      <change afterPath="$PROJECT_DIR$/db/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handler/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/resp.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handler/handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/handler/handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meta/filemeta.go" beforeDir="false" afterPath="$PROJECT_DIR$/meta/filemeta.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/view/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/view/signin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   <component name="ProjectId" id="1i9HNZlpt5fVjtfx2lNy5TXpNzi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="更新" />
+    <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,21 +79,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature: 初始化项目 v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: 初始化项目 v1.0" />
+    <MESSAGE value="feature: 把文件存储改成存储在数据库 v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 把文件存储改成存储在数据库 v1.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="732" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601312929675">
-      <screen x="0" y="0" width="2560" height="1409" />
+    <state x="4389" y="764" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601815186686">
+      <screen x="3840" y="506" width="1920" height="1034" />
     </state>
     <state x="732" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601312929675" />
+    <state x="4389" y="764" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601815186686" />
     <state x="4542" y="683" width="516" height="744" key="#构建标记_&amp;_Vendoring" timestamp="1601799295403">
       <screen x="3840" y="506" width="1920" height="1034" />
     </state>
     <state x="4542" y="683" width="516" height="744" key="#构建标记_&amp;_Vendoring/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601799295403" />
-    <state x="4377" y="518" key="CommitChangelistDialog2" timestamp="1601796803942">
+    <state x="4377" y="518" key="CommitChangelistDialog2" timestamp="1601800257194">
       <screen x="3840" y="506" width="1920" height="1034" />
     </state>
-    <state x="4377" y="518" key="CommitChangelistDialog2/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601796803942" />
+    <state x="4377" y="518" key="CommitChangelistDialog2/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601800257194" />
     <state x="4596" y="800" key="FileChooserDialogImpl" timestamp="1601796439204">
       <screen x="3840" y="506" width="1920" height="1034" />
     </state>
@@ -112,22 +114,15 @@
       <screen x="3840" y="506" width="1920" height="1034" />
     </state>
     <state x="4571" y="926" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601797700742" />
-    <state x="4522" y="665" width="719" height="716" key="find.popup" timestamp="1601799120846">
+    <state x="4522" y="665" width="719" height="722" key="find.popup" timestamp="1602044390999">
       <screen x="3840" y="506" width="1920" height="1034" />
     </state>
     <state x="909" y="217" width="742" height="975" key="find.popup/3840.340.2560.1394/0.0.2560.1409@0.0.2560.1409" timestamp="1601355070775" />
     <state x="909" y="217" width="742" height="975" key="find.popup/3840.506.1920.1034/0.0.2560.1409@0.0.2560.1409" timestamp="1601313693141" />
-    <state x="4522" y="665" width="719" height="716" key="find.popup/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1601799120846" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/handler/handler.go</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="4522" y="665" width="719" height="722" key="find.popup/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1602044390999" />
+    <state x="4379" y="505" width="840" height="1034" key="search.everywhere.popup" timestamp="1602044269965">
+      <screen x="3840" y="506" width="1920" height="1034" />
+    </state>
+    <state x="4379" y="505" width="840" height="1034" key="search.everywhere.popup/3840.506.1920.1034/0.0.2560.1409@3840.506.1920.1034" timestamp="1602044269965" />
   </component>
 </project>
